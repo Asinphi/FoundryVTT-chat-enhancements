@@ -21,9 +21,6 @@ Hooks.on('renderChatMessage', (message, html, speakerInfo) => {
     replaceSenderWithTokenName(messageSenderElem, speaker);
     appendPlayerName(messageSenderElem, speakerInfo.author);
 
-    messageSenderElem.hover((event) => {
-      utils.hoverIn(event, speaker);
-    }, utils.hoverOut);
     messageSenderElem.dblclick((event) => utils.panToSpeaker(speaker));
   }
 });
