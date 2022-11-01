@@ -11,7 +11,7 @@ function updateSpeaker() {
   currentSpeakerDisplay.innerText = game.i18n.format('illandril-chat-enhancements.currentSpeaker', {
     name: alias,
   });
-  document.getElementById("chat-message").ariaPlaceholder = alias;
+  document.getElementById("chat-message").placeholder = alias;
 }
 
 Hooks.once('renderChatLog', () => {
