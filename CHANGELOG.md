@@ -1,5 +1,9 @@
 # Changelog
 
+## [v1.0.1](https://github.com/Asinphi/FoundryVTT-chat-enhancements/tree/v1.0.1) (2022-11-01)
+
+[Full Changelog](https://github.com/Asinphi/FoundryVTT-chat-enhancements/compare/v1.0.0...v1.0.1)
+
 ## [v1.0.0](https://github.com/Asinphi/FoundryVTT-chat-enhancements/tree/v1.0.0) (2022-11-01)
 
 [Full Changelog](https://github.com/Asinphi/FoundryVTT-chat-enhancements/compare/4dfc6e24ed823abb5c1183a1bab19693870c27fb...v1.0.0)
