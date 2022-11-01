@@ -7,9 +7,11 @@ const currentSpeakerDisplay = document.createElement('div');
 currentSpeakerDisplay.classList.add(CSS_CURRENT_SPEAKER);
 
 function updateSpeaker() {
+  const alias = ChatMessage.getSpeaker().alias
   currentSpeakerDisplay.innerText = game.i18n.format('illandril-chat-enhancements.currentSpeaker', {
-    name: ChatMessage.getSpeaker().alias,
+    name: alias,
   });
+  document.getElementById("chat-message").ariaPlaceholder = alias;
 }
 
 Hooks.once('renderChatLog', () => {
