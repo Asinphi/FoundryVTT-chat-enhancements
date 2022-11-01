@@ -1,5 +1,5 @@
 {
-    "id": "illandril-chat-enhancements",
+    "id": "illandril-chat-enhancements-custom",
     "title": "Illandril's Chat Enhancements",
     "description": "Enhances the chat by showing player names in IC messages, replacing actor names with token names, and showing who you are currently speaking as.",
     "version": "2.0.0",
